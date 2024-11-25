@@ -1,0 +1,41 @@
+body{
+    
+        font-family: "Edu AU VIC WA NT Arrows", cursive;
+        font-optical-sizing: auto;
+       
+}
+h1{
+
+border:2px dotted green;
+margin:10px 20px 30px 40px;
+padding:20px 30px;
+}
+nav ul li {
+    list-style:none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    transition: ease-in-out 20s;
+}
+nav ul{
+    display:flex;
+    justify-content: space-evenly;
+}
+#highlight{
+    text-decoration: underline;
+    border:solid burlywood;
+    background-color: aquamarine;
+    background-color: antiquewhite;
+}
+.para-style{
+    text-align:center;
+    line-height: 5px;
+}
+.main-image{
+    width:350px;
+}
+a:hover{
+    text-decoration: underline;
+    color:blue;
+}
